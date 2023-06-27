@@ -61,7 +61,7 @@ def main():
 
     suc_msg = """
             ----------------------------------------------------------------------
-                Puii has been deployed! Visit @AellyXD for updates!!
+                Sangram has been deployed! Visit @Kalakar_Sangram for updates!!
             ----------------------------------------------------------------------
     """
 
