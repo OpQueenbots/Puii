@@ -77,14 +77,14 @@ buttons = [
 
 # Will move to strings
 alive_txt = """
-The Puii Userbot
+Sangram Userbot
 
   ◍ Version - {}
   ◍ Py-Puii - {}
   ◍ Telethon - {}
 """
 
-in_alive = "{}\n\n🌀 <b>Puii Version -><b> <code>{}</code>\n🌀 <b>PyPuii -></b> <code>{}</code>\n🌀 <b>Python -></b> <code>{}</code>\n🌀 <b>Uptime -></b> <code>{}</code>\n🌀 <b>Branch -></b>[ {} ]\n\n• <b>Join @Red_Wine_Op</b>"
+in_alive = "{}\n\n🌀 <b>Sangram Version -><b> <code>{}</code>\n🌀 <b>PyPuii -></b> <code>{}</code>\n🌀 <b>Python -></b> <code>{}</code>\n🌀 <b>Uptime -></b> <code>{}</code>\n🌀 <b>Branch -></b>[ {} ]\n\n• <b>Join @Red_Wine_Op</b>"
 
 
 @callback("alive")
