@@ -29,7 +29,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**Puii [v{puii_version}](https://github.com/AellyXD/Puii), powered by @AellyXD**
+**Sangram [v{puii_version}](https://github.com/OpQueenbots/Puii), powered by @Kalakar_Sangram**
 """
 
 
@@ -55,10 +55,10 @@ _start = [
         Button.inline("Sᴇᴛᴛɪɴɢs ⚙️", data="setter"),
     ],
     [
-        Button.inline("Sᴛᴀᴛs ✨", data="stat"),
-        Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📻", data="bcast"),
+        Button.inline("Sᴛᴀᴛs", data="stat"),
+        Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ", data="bcast"),
     ],
-    [Button.inline("TɪᴍᴇZᴏɴᴇ 🌎", data="tz")],
+    [Button.inline("TɪᴍᴇZᴏɴᴇ", data="tz")],
 ]
 
 
@@ -68,7 +68,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(puii_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@AellyXD**"
+        msg += "\n\n• Powered by **@Kalakar_Sangram**"
     await event.edit(
         msg,
         buttons=[Button.inline("Close", data="closeit")],
