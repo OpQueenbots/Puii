@@ -32,8 +32,8 @@ from . import _ult_cache
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/AellyXD/Puii"),
-        Button.url("• Support •", url="t.me/AellyXD"),
+        Button.url("• Repo •", url="https://github.com/OpQueenbots/Puii"),
+        Button.url("• Support •", url="t.me/Kalakar_Sangram"),
     ],
 ]
 
