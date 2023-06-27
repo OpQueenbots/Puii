@@ -50,7 +50,7 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Support •", url="t.me/AellyXD"),
+        Button.url("• Support •", url="t.me/Kalakar_Sangram"),
     ],
 ]
 
@@ -59,10 +59,10 @@ SUP_BUTTONS = [
 
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
-    TLINK = inline_pic() or "https://graph.org/file/4841c1a78db59c3f3c09a.jpg"
-    MSG = "• **Puii Userbot •**"
+    TLINK = inline_pic() or "https://telegra.ph/file/be5258ef33dfe5d4d9a9a.jpg"
+    MSG = "• **Sangram Userbot •**"
     WEB0 = InputWebDocument(
-        "https://graph.org/file/4841c1a78db59c3f3c09a.jpg", 0, "image/jpg", []
+        "https://telegra.ph/file/be5258ef33dfe5d4d9a9a.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
@@ -194,7 +194,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© @AellyXD"
+    help_ += "\n© @Kalakar_Sangram"
     buttons = []
     if inline_pic():
         data = f"sndplug_{key}_{file}"
@@ -397,9 +397,9 @@ async def ibuild(e):
                     results = [
                         await builder.document(
                             _pic,
-                            title="Puii Op",
+                            title="Sangram Op",
                             text=txt,
-                            description="@AellyXD",
+                            description="@Kalakar_Sangram",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -412,10 +412,10 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Puii Op",
+                        title="Sangram Op",
                         type=_type,
                         text=txt,
-                        description="@AellyXD",
+                        description="@Kalakar_Sangram",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
