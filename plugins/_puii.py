@@ -14,21 +14,21 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, puii_cmd
 
 REPOMSG = """
-• **PUII USERBOT** •\n
+• **SANGRAM USERBOT** •\n
 
-• Addons - [Click Here](https://github.com/AellyXD/PuiiAddons)
-• Support - @puiisupport
+• Addons - [Click Here](https://github.com/OpQueenbots/PuiiAddons)
+• Support - @Kalakar_Sangram
 """
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/AellyXD/Puii"),
-        Button.url("Addons", "https://github.com/AellyXD/Puiiaddons"),
+        Button.url(get_string("bot_3"), "https://github.com/OpQueenbots/Puii"),
+        Button.url("Addons", "https://github.com/OpQueenbots/Puiiaddons"),
     ],
-    [Button.url("Support Group", "t.me/PuiiSupport")],
+    [Button.url("Support Group", "t.me/Red_Wine_Op")],
 ]
 
-ULTSTRING = """🎇 **Thanks for Deploying Puii Userbot!**
+ULTSTRING = """🎇 **Thanks for Deploying Sangram Userbot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -59,7 +59,7 @@ async def usePuii(rs):
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="https://graph.org/file/4841c1a78db59c3f3c09a.jpg",
+        file="https://telegra.ph/file/be5258ef33dfe5d4d9a9a.jpg",
         buttons=button,
     )
     if not (rs.chat_id == LOG_CHANNEL and rs.client._bot):
